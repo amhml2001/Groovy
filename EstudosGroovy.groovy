@@ -111,9 +111,9 @@ class EstudosGroovy{
         println("80) Is Empty? " + primes.isEmpty());
         println("81) 1 to 3 --> " + primes[0..2]);
         println("82) " + primes);
-        println("Matches --> " + primes.intersect([2, 3, 7]));
-        println("Reverse --> " + primes.reverse());
-        println("Sort --> " + primes.sort());
-        println("Last --> " + primes.pop());
+        println("83) Matches --> " + primes.intersect([2, 3, 7]));
+        println("84) Reverse --> " + primes.reverse());
+        println("85) Sort --> " + primes.sort());
+        println("86) Last --> " + primes.pop());
     }
 }
