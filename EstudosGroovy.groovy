@@ -115,5 +115,31 @@ class EstudosGroovy{
         println("84) Reverse --> " + primes.reverse());
         println("85) Sort --> " + primes.sort());
         println("86) Last --> " + primes.pop());
+        //MAP
+        //Maps are like list but they have indexes. Like a dictionary in python
+        def paulMap = [
+            'name' : 'Paul',
+            'age' : 35,
+            'address' : '123 Main St',
+            'list' : [1,2,3]
+        ];
+        println("87) Name = " + paulMap['name']);
+        println("88) Age = " + paulMap.get('age'));
+        println("89) List Item = " + paulMap['list'][1]);
+        paulMap.put('city', 'Rio de Janeiro');
+        println("90) Has City " + paulMap.containsKey('city'));
+        println("91) Size = " + paulMap.size());
+        //RANGE
+        def oneTo10 = 1..10;
+        def aToZ ='a'..'z';
+        def zToA = 'z'..'a';
+        println("92) " + oneTo10);
+        println("93) " + aToZ);
+        println("94) " +zToA);
+        println("95) Size = " + oneTo10.size());
+        println("96) 2nd Item = " + oneTo10.get(1));
+        println("97) Contains 11 --> " + oneTo10.contains(11));
+        println("98) Get Last = " + oneTo10.getTo());
+        println("99) Get First = " + oneTo10.getFrom());
     }
 }
